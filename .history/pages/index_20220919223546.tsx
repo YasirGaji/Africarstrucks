@@ -5,16 +5,16 @@ import styled from 'styled-components'
 import React from 'react'
 import tw from 'twin.macro'
 
-const AppContainer = styled.div`
-  ${
-    tw`
-      w-full
-      h-full
-      flex
-      flex-col
-    `
-  }
-`;
+// const AppContainer = styled.div`
+//   ${
+//     tw`
+//       w-full
+//       h-full
+//       flex
+//       flex-col
+//     `
+//   }
+// `;
 
 const Home: NextPage = () => {
   return (
