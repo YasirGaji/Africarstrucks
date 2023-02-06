@@ -4,7 +4,7 @@ import {
   NavItem, 
   menuStyles
 } from "./styles/navbar";
-import { slide as Menu } from "react-burger-menu";
+import { Slide as Menu } from "react-burger-menu";
 import { useMediaQuery } from "react-responsive";
 import { SCREEENS } from "../responsive";
 

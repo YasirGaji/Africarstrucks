@@ -1,5 +1,6 @@
 import styled from "styled-components/macro";
 import tw from "twin.macro";
+import { Slide as Menu } from 'react-burger-menu';
 
 export const NavbarContainer = styled.div`
   min-height: 68px;

@@ -2,11 +2,11 @@ import React from "react";
 import { 
   ListContainer,
   NavItem, 
-  menuStyles
 } from "./styles/navbar";
-import { slide as Menu } from "react-burger-menu";
+import { Slide as Menu } from "react-burger-menu";
 import { useMediaQuery } from "react-responsive";
 import { SCREEENS } from "../responsive";
+import menuStyles from "./styles/navbar";
 
 export function NavItems() {
   const isMobile = useMediaQuery({ maxWidth: SCREEENS.sm });
