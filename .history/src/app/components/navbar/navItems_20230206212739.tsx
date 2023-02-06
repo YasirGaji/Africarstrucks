@@ -15,27 +15,27 @@ export function NavItems() {
     return (
       <Menu right styles={mobileMenuStyles}>
         <ListContainer>
-          <NavItem menu>
+          <NavItem>
             <a href="/">Home</a>
           </NavItem>
 
-          <NavItem menu > 
+          <NavItem>
             <a href="/about">About</a>
           </NavItem>
 
-          <NavItem menu>
+          <NavItem>
             <a href="/contact">Services</a>
           </NavItem>
 
-          <NavItem menu>
+          <NavItem>
             <a href="/blog">Our fleet</a>
           </NavItem>
 
-          <NavItem menu>
+          <NavItem>
             <a href="/blog">Blog</a>
           </NavItem>
 
-          <NavItem menu>
+          <NavItem>
             <a href="/blog">Contact us</a>
           </NavItem>
         </ListContainer> 

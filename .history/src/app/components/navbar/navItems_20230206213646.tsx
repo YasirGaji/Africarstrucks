@@ -19,7 +19,7 @@ export function NavItems() {
             <a href="/">Home</a>
           </NavItem>
 
-          <NavItem menu > 
+          <NavItem> menu
             <a href="/about">About</a>
           </NavItem>
 

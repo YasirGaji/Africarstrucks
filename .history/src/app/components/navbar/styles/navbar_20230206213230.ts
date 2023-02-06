@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components/macro";
+import styled from "styled-components/macro";
 import tw from "twin.macro";
 
 export const NavbarContainer = styled.div`
@@ -41,14 +41,7 @@ export const NavItem = styled.li<{ menu?: any}>`
     hover:text-gray-700
   `}
 
-  ${({ menu }) => menu && css `
-    ${tw`
-      text-white
-      text-xl
-      mb-3
-      focus:text-white
-    `}
-  `}
+  ${({ menu }) => menu && tw`text-white text-xl mb-3 focus:text-white`}
 `;
 
 export const mobileMenuStyles = {
