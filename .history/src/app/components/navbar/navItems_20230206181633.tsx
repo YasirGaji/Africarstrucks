@@ -9,7 +9,7 @@ import { useMediaQuery } from "react-responsive";
 import { SCREEENS } from "../responsive";
 
 export function NavItems() {
-  const isMobile = useMediaQuery({ maxWidth: SCREEENS.sm });
+  const isMobile = useMediaQuery({ query: SCREEENS.sm });
 
   if (isMobile) {
     return (
@@ -39,7 +39,7 @@ export function NavItems() {
             <a href="/blog">Contact us</a>
           </NavItem>
         </ListContainer> 
-      </Menu>
+    </Menu>
     )
   }
 
