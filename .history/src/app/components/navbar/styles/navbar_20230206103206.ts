@@ -1,6 +1,5 @@
 import styled from "styled-components/macro";
 import tw from "twin.macro";
-import { Link as ReactRouterLink } from "react-router-dom";
 
 export const NavbarContainer = styled.div`
   min-height: 68px;
@@ -26,7 +25,7 @@ export const ListContainer = styled.ul`
   `}
 `;
 
-export const NavItem = styled(ReactRouterLink)`
+export const NavItem = styled.li<{ menu?: any }>`
   ${tw`
     text-sm
     md:text-base

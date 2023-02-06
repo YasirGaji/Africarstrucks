@@ -9,8 +9,8 @@ export function NavItems() {
     <ListContainer>
       <NavItem to="/">Home</NavItem>
       <NavItem to="/about">About</NavItem>
-      <NavItem to="/contact">Srvices</NavItem>
       <NavItem to="/contact">Contact</NavItem>
+      
     </ListContainer>
   )
 }
