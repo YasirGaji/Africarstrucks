@@ -11,9 +11,8 @@ export function Navbar() {
     <NavbarContainer>
       <LogoContainer>
         <Logo />
+        <NavItems />
       </LogoContainer>
-      
-      <NavItems />
     </NavbarContainer>
   );
 }
