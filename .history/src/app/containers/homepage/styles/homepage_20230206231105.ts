@@ -96,7 +96,7 @@ export const BlobContainer = styled.div`
 export const StandaloneVehicle = styled.div`
   width: auto;
   height: 10em;
-  right: -1.4em;
+  right: -4em;
   top: -5em;
   position: absolute;
 

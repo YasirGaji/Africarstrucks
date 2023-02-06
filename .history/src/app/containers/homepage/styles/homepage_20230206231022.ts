@@ -87,6 +87,7 @@ export const BlobContainer = styled.div`
   transform: rotate(-30deg);
 
   img {
+    right: -5em;
     width: 100%;
     height: auto;
     max-height: max-content;
@@ -96,7 +97,7 @@ export const BlobContainer = styled.div`
 export const StandaloneVehicle = styled.div`
   width: auto;
   height: 10em;
-  right: -1.4em;
+  right: -6em;
   top: -5em;
   position: absolute;
 

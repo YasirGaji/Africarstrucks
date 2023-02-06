@@ -81,7 +81,7 @@ export const BlobContainer = styled.div`
   width: 25em;
   height: 10em;
   position: absolute;
-  right: -5em;
+  right: 5em;
   top: -9em;
   z-index: -1;
   transform: rotate(-30deg);
@@ -96,7 +96,7 @@ export const BlobContainer = styled.div`
 export const StandaloneVehicle = styled.div`
   width: auto;
   height: 10em;
-  right: -1.4em;
+  right: -6em;
   top: -5em;
   position: absolute;
 

@@ -96,7 +96,7 @@ export const BlobContainer = styled.div`
 export const StandaloneVehicle = styled.div`
   width: auto;
   height: 10em;
-  right: -1.4em;
+  right: -3em;
   top: -5em;
   position: absolute;
 
@@ -104,5 +104,9 @@ export const StandaloneVehicle = styled.div`
     width: auto;
     height: 100%;
     max-width: fit-content;
+  }
+
+  @media (min-width: 1200px) {
+    
   }
 `;

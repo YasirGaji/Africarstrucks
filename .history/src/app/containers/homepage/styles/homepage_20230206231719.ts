@@ -105,4 +105,8 @@ export const StandaloneVehicle = styled.div`
     height: 100%;
     max-width: fit-content;
   }
+
+  @media (min-width: 1200px) {
+    
+  }
 `;
