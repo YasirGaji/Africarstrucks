@@ -1,8 +1,6 @@
 import React from "react";
+
 import { Navbar } from "../../components";
-import { 
-  PageContainer 
-} from "./styles/homepage";
 
 
 
