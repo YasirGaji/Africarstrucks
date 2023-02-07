@@ -65,6 +65,7 @@ export const Slogan = styled.h1`
     xl:leading-relaxed
     [z-index: 99]
     flex
+    flex-wrap
   `}
 
 

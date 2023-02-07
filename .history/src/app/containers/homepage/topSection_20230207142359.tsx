@@ -19,15 +19,12 @@ export function TopSection() {
   if (isMobile) {
     return (
       <TopSectionContainer>
-        <Slogan>
-          We Supply Trucks 
-          <div>  
+            <Slogan>
+              We Supply Trucks            
+            </Slogan>
           <ButtonContainer>
-            <Button text="Rent now" theme={"outlined"} />
-          </ButtonContainer> 
-          </div>        
-        </Slogan>
-         
+            <Button text="Rent a truck" theme={"filled"} />
+          </ButtonContainer>
 
         <RightContainer>
           <BlobContainer>

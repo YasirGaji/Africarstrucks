@@ -64,7 +64,6 @@ export const Slogan = styled.h1`
     lg:leading-normal
     xl:leading-relaxed
     [z-index: 99]
-    flex
   `}
 
 

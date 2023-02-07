@@ -19,15 +19,9 @@ export function TopSection() {
   if (isMobile) {
     return (
       <TopSectionContainer>
-        <Slogan>
-          We Supply Trucks 
-          <div>  
-          <ButtonContainer>
-            <Button text="Rent now" theme={"outlined"} />
-          </ButtonContainer> 
-          </div>        
-        </Slogan>
-         
+        <LeftContainer>
+          <Slogan>We Supply Trucks</Slogan>
+        </LeftContainer>
 
         <RightContainer>
           <BlobContainer>
@@ -50,10 +44,7 @@ export function TopSection() {
           We value the time and quality. A Truck/Trailer management and sales company. We have a fleet of over 200 trucks. Sales, Repair, Pick-up and Dump Trucks For Hire & Supply…
         </Description>
 
-        <ButtonContainer>
-          <Button text="Rent a truck" theme={"filled"} />
-          <Button text="Rent a trailer" theme={"outlined"} />
-        </ButtonContainer>
+        
         
       </LeftContainer>
 

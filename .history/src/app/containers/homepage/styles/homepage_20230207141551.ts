@@ -64,10 +64,9 @@ export const Slogan = styled.h1`
     lg:leading-normal
     xl:leading-relaxed
     [z-index: 99]
-    flex
   `}
 
-
+  min-width: 50px;
 `;
 
 export const Description = styled.p`
@@ -126,6 +125,5 @@ export const StandaloneVehicle = styled.div`
 export const ButtonContainer = styled.div`
   ${tw`
     flex
-    z-20
   `}
 `;

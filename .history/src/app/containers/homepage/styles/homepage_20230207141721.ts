@@ -60,14 +60,12 @@ export const Slogan = styled.h1`
     text-black
     mb-3
     mt-2
+    flex
     sm:leading-snug
     lg:leading-normal
     xl:leading-relaxed
     [z-index: 99]
-    flex
   `}
-
-
 `;
 
 export const Description = styled.p`
@@ -126,6 +124,5 @@ export const StandaloneVehicle = styled.div`
 export const ButtonContainer = styled.div`
   ${tw`
     flex
-    z-20
   `}
 `;
