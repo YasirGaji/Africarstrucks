@@ -147,6 +147,5 @@ export const ButtonContainer = styled.div`
 export const Text = styled.div`
   ${tw`
     min-w-max
-    [margin-right: -2em]
   `}
 `;

@@ -66,11 +66,12 @@ export const Slogan = styled.h1`
     xl:leading-relaxed
     [z-index: 99]
     flex
+    [width: 100]
   `}
 
   @media (max-width: ${SCREENS.sm}) {
     ${tw`
-      [min-width: 5em]
+      [min-width: 3em]
       
     `}
   }
@@ -139,14 +140,18 @@ export const ButtonContainer = styled.div`
     ${tw`
       [min-width: 6em]
       [margin-left: 3em]
-      mt-5
+      mt-3
     `}
   }
 `;
 
-export const Text = styled.div`
+export const Mobilediv = styled.div`
   ${tw`
-    min-w-max
-    [margin-right: -2em]
+    flex
+    flex-col
+    items-center
+    justify-center
+    w-full
+    h-full
   `}
 `;

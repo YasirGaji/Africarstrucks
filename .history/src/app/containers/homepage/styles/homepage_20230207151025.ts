@@ -71,7 +71,7 @@ export const Slogan = styled.h1`
   @media (max-width: ${SCREENS.sm}) {
     ${tw`
       [min-width: 5em]
-      
+      font-light
     `}
   }
 `;
@@ -144,9 +144,13 @@ export const ButtonContainer = styled.div`
   }
 `;
 
-export const Text = styled.div`
+export const Mobilediv = styled.div`
   ${tw`
-    min-w-max
-    [margin-right: -2em]
+    flex
+    flex-col
+    items-center
+    justify-center
+    w-full
+    h-full
   `}
 `;

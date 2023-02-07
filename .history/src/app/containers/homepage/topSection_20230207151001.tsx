@@ -7,8 +7,7 @@ import {
   Description,
   BlobContainer,
   StandaloneVehicle,
-  ButtonContainer,
-  Text
+  ButtonContainer
 } from "./styles/homepage"
 import { useMediaQuery } from "react-responsive";
 import { SCREENS } from "../../components/responsive";
@@ -23,7 +22,7 @@ export function TopSection() {
       <TopSectionContainer>
         <LeftContainer>
         <Slogan>
-          <Text>We Supply <br/> Trucks</Text>
+          We Supply <br/> Trucks 
           <div>  
           <ButtonContainer>
             <Button text="Get a truck" theme={"outlined"} />
