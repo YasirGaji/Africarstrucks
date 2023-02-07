@@ -9,7 +9,7 @@ import {
   StandaloneVehicle
 } from "./styles/homepage"
 import { useMediaQuery } from "react-responsive";
-import { SCREEENS } from "../../components/responsive";
+import { SCREEENS } from "../responsive";
 
 export function TopSection() {
   const isMobile = useMediaQuery({ maxWidth: SCREEENS.sm });

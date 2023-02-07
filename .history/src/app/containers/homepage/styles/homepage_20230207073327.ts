@@ -57,13 +57,13 @@ export const Slogan = styled.h1`
     lg:font-black
     md:font-extrabold
     text-black
-    mb-3
-    mt-2
+    mb-4
     sm:leading-snug
     lg:leading-normal
     xl:leading-relaxed
     [z-index: 99]
   `}
+
 `;
 
 export const Description = styled.p`

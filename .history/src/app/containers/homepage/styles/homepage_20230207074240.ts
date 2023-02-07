@@ -58,7 +58,7 @@ export const Slogan = styled.h1`
     md:font-extrabold
     text-black
     mb-3
-    mt-2
+    mt-1.5
     sm:leading-snug
     lg:leading-normal
     xl:leading-relaxed

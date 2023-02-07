@@ -57,8 +57,7 @@ export const Slogan = styled.h1`
     lg:font-black
     md:font-extrabold
     text-black
-    mb-3
-    mt-2
+    mb-4
     sm:leading-snug
     lg:leading-normal
     xl:leading-relaxed
@@ -75,6 +74,7 @@ export const Description = styled.p`
     overflow-hidden
     max-h-12
     text-gray-800
+    md:[display: none]
   `}
 `;
 

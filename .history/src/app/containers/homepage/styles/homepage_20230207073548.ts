@@ -57,8 +57,7 @@ export const Slogan = styled.h1`
     lg:font-black
     md:font-extrabold
     text-black
-    mb-3
-    mt-2
+    mb-4
     sm:leading-snug
     lg:leading-normal
     xl:leading-relaxed
@@ -79,7 +78,7 @@ export const Description = styled.p`
 `;
 
 export const BlobContainer = styled.div`
-  width: 27em;
+  width: 30em;
   height: 10em;
   position: absolute;
   right: -5em;

@@ -9,28 +9,13 @@ import {
   StandaloneVehicle
 } from "./styles/homepage"
 import { useMediaQuery } from "react-responsive";
-import { SCREEENS } from "../../components/responsive";
 
 export function TopSection() {
-  const isMobile = useMediaQuery({ maxWidth: SCREEENS.sm });
+  const isMobile = useMediaQuery({ maxWidth: 768 });
   
   if (isMobile) {
     return (
-      <TopSectionContainer>
-        <LeftContainer>
-          <Slogan>We Supply Trucks</Slogan>
-        </LeftContainer>
-
-        <RightContainer>
-          <BlobContainer>
-            <img src="/images/blob.svg" alt="blob" />
-          </BlobContainer>
-
-          <StandaloneVehicle>
-            <img src="/images/truck1.png" alt="Tuck" />
-          </StandaloneVehicle>
-        </RightContainer>
-    </TopSectionContainer> 
+      
     )
   }
 

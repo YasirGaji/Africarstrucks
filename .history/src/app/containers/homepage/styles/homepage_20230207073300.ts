@@ -50,20 +50,20 @@ export const RightContainer = styled.div`
 export const Slogan = styled.h1`
   ${tw`
     font-bold
-    text-3xl
+    text-2xl
     xl:text-6xl
-    sm:text-3xl
+    sm:text-5xl
     md:text-5xl
     lg:font-black
     md:font-extrabold
     text-black
-    mb-3
-    mt-2
+    mb-4
     sm:leading-snug
     lg:leading-normal
     xl:leading-relaxed
     [z-index: 99]
   `}
+
 `;
 
 export const Description = styled.p`

@@ -18,7 +18,7 @@ export function TopSection() {
     return (
       <TopSectionContainer>
         <LeftContainer>
-          <Slogan>We Supply Trucks</Slogan>
+          <Slogan>We Hire & Supply Trucks</Slogan>
         </LeftContainer>
 
         <RightContainer>
