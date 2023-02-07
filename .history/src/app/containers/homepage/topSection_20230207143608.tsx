@@ -21,14 +21,14 @@ export function TopSection() {
       <TopSectionContainer>
         <Slogan>
           We Supply Trucks 
-          <div>  
-          <ButtonContainer>
-            <Button text="Get a truck" theme={"outlined"} />
-          </ButtonContainer> 
-          </div>        
+               
         </Slogan>
          
-
+        <div>  
+        <ButtonContainer>
+          <Button text="Rent now" theme={"outlined"} />
+        </ButtonContainer> 
+        </div>  
         <RightContainer>
           <BlobContainer>
             <img src="/images/blob.svg" alt="blob" />
@@ -51,8 +51,8 @@ export function TopSection() {
         </Description>
 
         <ButtonContainer>
-          <Button text="Get a truck" theme={"filled"} />
-          <Button text="Rent a truck" theme={"outlined"} />
+          <Button text="Rent a truck" theme={"filled"} />
+          <Button text="Rent a trailer" theme={"outlined"} />
         </ButtonContainer>
         
       </LeftContainer>

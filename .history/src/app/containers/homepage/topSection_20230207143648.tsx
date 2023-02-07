@@ -51,8 +51,8 @@ export function TopSection() {
         </Description>
 
         <ButtonContainer>
-          <Button text="Get a truck" theme={"filled"} />
-          <Button text="Rent a truck" theme={"outlined"} />
+          <Button text="Rent a truck" theme={"filled"} />
+          <Button text="Rent a trailer" theme={"outlined"} />
         </ButtonContainer>
         
       </LeftContainer>

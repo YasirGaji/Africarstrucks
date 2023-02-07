@@ -4,13 +4,13 @@ import { SCREENS } from  "../../../components/responsive";
 
 export const PageContainer = styled.div`
   ${tw`
-    flex
-    flex-col
-    w-full
-    h-full
-    items-center
-    overflow-hidden
-  `}
+      flex
+      flex-col
+      w-full
+      h-full
+      items-center
+      overflow-hidden
+    `}
 `;
 
 export const TopSectionContainer = styled.div`
@@ -65,7 +65,7 @@ export const Slogan = styled.h1`
     xl:leading-relaxed
     [z-index: 99]
     flex
-    [width: 100]
+    [width: fit-content]
   `}
 
 
