@@ -20,16 +20,10 @@ export function TopSection() {
     return (
       <div>
       <TopSectionContainer>
-        <LeftContainer>
         <Slogan>
           We Supply Trucks 
-          <div>  
-          <ButtonContainer>
-            <Button text="Get a truck" theme={"outlined"} />
-          </ButtonContainer> 
-          </div>        
+             
         </Slogan>
-        </LeftContainer>
          
 
         <RightContainer>
@@ -42,6 +36,12 @@ export function TopSection() {
           </StandaloneVehicle>
         </RightContainer>
     </TopSectionContainer> 
+    
+    <div>  
+      <ButtonContainer>
+        <Button text="Get a truck" theme={"outlined"} />
+      </ButtonContainer> 
+      </div>     
     </div>
     )
   }

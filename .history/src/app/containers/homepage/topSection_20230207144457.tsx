@@ -7,7 +7,8 @@ import {
   Description,
   BlobContainer,
   StandaloneVehicle,
-  ButtonContainer
+  ButtonContainer,
+  Mobilediv
 } from "./styles/homepage"
 import { useMediaQuery } from "react-responsive";
 import { SCREENS } from "../../components/responsive";
@@ -18,18 +19,12 @@ export function TopSection() {
   
   if (isMobile) {
     return (
-      <div>
+      <Mobilediv>
       <TopSectionContainer>
-        <LeftContainer>
         <Slogan>
           We Supply Trucks 
-          <div>  
-          <ButtonContainer>
-            <Button text="Get a truck" theme={"outlined"} />
-          </ButtonContainer> 
-          </div>        
+             
         </Slogan>
-        </LeftContainer>
          
 
         <RightContainer>
@@ -42,7 +37,13 @@ export function TopSection() {
           </StandaloneVehicle>
         </RightContainer>
     </TopSectionContainer> 
-    </div>
+
+    <div>  
+      <ButtonContainer>
+        <Button text="Get a truck" theme={"outlined"} />
+      </ButtonContainer> 
+      </div>     
+    </Mobilediv>
     )
   }
 

@@ -67,14 +67,11 @@ export const Slogan = styled.h1`
     [z-index: 99]
     flex
     [width: 100]
+
+    
   `}
 
-  @media (max-width: ${SCREENS.sm}) {
-    ${tw`
-      [min-width: 3em]
-      
-    `}
-  }
+  
 `;
 
 export const Description = styled.p`
@@ -138,8 +135,7 @@ export const ButtonContainer = styled.div`
 
   @media (max-width: ${SCREENS.sm}) {
     ${tw`
-      [min-width: 6em]
-      [margin-left: 3em]
+      [min-width: 12em]
     `}
   }
 `;

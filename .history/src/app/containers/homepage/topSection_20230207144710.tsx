@@ -20,7 +20,6 @@ export function TopSection() {
     return (
       <div>
       <TopSectionContainer>
-        <LeftContainer>
         <Slogan>
           We Supply Trucks 
           <div>  
@@ -29,7 +28,6 @@ export function TopSection() {
           </ButtonContainer> 
           </div>        
         </Slogan>
-        </LeftContainer>
          
 
         <RightContainer>

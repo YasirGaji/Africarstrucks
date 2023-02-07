@@ -34,8 +34,6 @@ export const LeftContainer = styled.div`
     flex
     flex-col
   `}
-
-  
 `;
 
 export const RightContainer = styled.div`
@@ -69,12 +67,7 @@ export const Slogan = styled.h1`
     [width: 100]
   `}
 
-  @media (max-width: ${SCREENS.sm}) {
-    ${tw`
-      [min-width: 3em]
-      
-    `}
-  }
+
 `;
 
 export const Description = styled.p`
@@ -134,23 +127,5 @@ export const ButtonContainer = styled.div`
   ${tw`
     flex
     z-20
-  `}
-
-  @media (max-width: ${SCREENS.sm}) {
-    ${tw`
-      [min-width: 6em]
-      [margin-left: 3em]
-    `}
-  }
-`;
-
-export const Mobilediv = styled.div`
-  ${tw`
-    flex
-    flex-col
-    items-center
-    justify-center
-    w-full
-    h-full
   `}
 `;
