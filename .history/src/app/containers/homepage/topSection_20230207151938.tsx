@@ -44,10 +44,10 @@ export function TopSection() {
         </RightContainer>
       </TopSectionContainer> 
 
-      {/* <ButtonContainer>
+      <ButtonContainer>
         <Button text="Get a truck" theme={"filled"} />
         <Button text="Rent a truck" theme={"outlined"} />
-      </ButtonContainer> */}
+      </ButtonContainer>
     </>
     )
   }
