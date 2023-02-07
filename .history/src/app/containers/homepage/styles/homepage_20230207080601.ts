@@ -77,10 +77,6 @@ export const Description = styled.p`
     max-h-12
     text-gray-800
   `}
-
-  @media (min-width: ${SCREENS.sm}) {
-   
-  }
 `;
 
 export const BlobContainer = styled.div`

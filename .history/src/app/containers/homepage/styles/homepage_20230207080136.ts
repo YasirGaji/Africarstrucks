@@ -1,6 +1,6 @@
 import styled from "styled-components/macro";
 import tw from "twin.macro";
-import { SCREENS } from  "../../../components/responsive";
+import  SCREENS  from "../../../components/responsive";
 
 export const PageContainer = styled.div`
   ${tw`
@@ -77,10 +77,6 @@ export const Description = styled.p`
     max-h-12
     text-gray-800
   `}
-
-  @media (min-width: ${SCREENS.sm}) {
-   
-  }
 `;
 
 export const BlobContainer = styled.div`
@@ -99,10 +95,7 @@ export const BlobContainer = styled.div`
   }
 
   @media (min-width: ${SCREENS.sm}) {
-    width: 27em;
-    max-height: 10em;
-    right: -3em;
-    transform: rotate(-25deg);
+    
   }
 `;
 

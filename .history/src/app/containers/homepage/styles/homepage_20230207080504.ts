@@ -77,10 +77,6 @@ export const Description = styled.p`
     max-h-12
     text-gray-800
   `}
-
-  @media (min-width: ${SCREENS.sm}) {
-   
-  }
 `;
 
 export const BlobContainer = styled.div`
@@ -99,9 +95,10 @@ export const BlobContainer = styled.div`
   }
 
   @media (min-width: ${SCREENS.sm}) {
-    width: 27em;
+    width: 40em;
     max-height: 10em;
-    right: -3em;
+    right: -9em;
+    top: -16em;
     transform: rotate(-25deg);
   }
 `;

@@ -79,7 +79,10 @@ export const Description = styled.p`
   `}
 
   @media (min-width: ${SCREENS.sm}) {
-   
+    width: 27em;
+    max-height: 10em;
+    right: -4em;
+    transform: rotate(-25deg);
   }
 `;
 

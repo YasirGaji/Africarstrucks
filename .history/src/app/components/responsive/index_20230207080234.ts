@@ -1,4 +1,4 @@
-export const SCREENS = { 
+export const SCREEENS = { 
   sm: "640PX",
   md: "768px",
   lg: "1024px",
