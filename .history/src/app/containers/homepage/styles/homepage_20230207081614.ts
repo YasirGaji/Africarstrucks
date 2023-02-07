@@ -101,7 +101,14 @@ export const BlobContainer = styled.div`
   @media (min-width: ${SCREENS.sm}) {
     width: 27em;
     max-height: 10em;
-    right: -2em;
+    right: 3em;
+    transform: rotate(-25deg);
+  }
+
+  @media (min-width: ${SCREENS.sm}) {
+    width: 47em;
+    max-height: 10em;
+    right: -3em;
     transform: rotate(-25deg);
   }
 `;
