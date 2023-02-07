@@ -20,6 +20,8 @@ export const BaseButton = styled.button`
     duration-200
     ease-in-out
     m-1
+    [display: flex]
+    [justify-content: center]
   `}
 `;
 

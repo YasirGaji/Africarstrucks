@@ -10,7 +10,6 @@ import {
 } from "./styles/homepage"
 import { useMediaQuery } from "react-responsive";
 import { SCREENS } from "../../components/responsive";
-import { Button } from "../../components";
 
 export function TopSection() {
   const isMobile = useMediaQuery({ maxWidth: SCREENS.sm });
@@ -43,8 +42,7 @@ export function TopSection() {
           We value the time and quality. A Truck/Trailer management and sales company. We have a fleet of over 200 trucks. Sales, Repair, Pick-up and Dump Trucks For Hire & Supply…
         </Description>
 
-        <Button text="Rent a truck" theme={"filled"} />
-        <Button text="Rent a trailer" theme={"outlined"} />
+        <Button  />
       </LeftContainer>
 
       <RightContainer>

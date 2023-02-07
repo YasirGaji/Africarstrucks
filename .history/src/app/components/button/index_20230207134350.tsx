@@ -1,5 +1,6 @@
 import React from 'react';
 import { 
+  BaseButton,
   FilledButton,
   OutlinedButton,
 } from './styles/button'

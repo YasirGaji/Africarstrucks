@@ -36,8 +36,6 @@ export const FilledButton = styled(BaseButton)`
   ${tw`
     border-black
     text-black
-    hover:text-white
-    hover:bg-black
-    hover:border-transparent
+    
   `}
 `;

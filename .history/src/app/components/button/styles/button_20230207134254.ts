@@ -21,6 +21,9 @@ export const BaseButton = styled.button`
     ease-in-out
     m-1
   `}
+
+  display: flex;
+  align-items: center;
 `;
 
 export const OutlinedButton = styled(BaseButton)`

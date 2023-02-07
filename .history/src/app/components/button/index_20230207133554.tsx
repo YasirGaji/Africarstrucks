@@ -1,5 +1,6 @@
 import React from 'react';
 import { 
+  BaseButton,
   FilledButton,
   OutlinedButton,
 } from './styles/button'
@@ -13,10 +14,19 @@ interface ButtonProps {
 export function Button(props: ButtonProps) {
   const { theme, text } = props;
 
-  if(theme === "outlined")
-    return <OutlinedButton>{text}</OutlinedButton>
-  else
-    return <FilledButton>{text}</FilledButton>
+  if (theme === "filled") {
+    return (
+      <>
+        <FilledButton>{text}</FilledButton>
+      </>
+    )
+  } else {
+    return (
+      <>
+        <OutlinedButton>{text}</OutlinedButton>
+      </>
+    )
+  }
 
   // return (
   //   <BaseButton>
