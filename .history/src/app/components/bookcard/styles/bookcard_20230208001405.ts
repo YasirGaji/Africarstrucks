@@ -28,32 +28,7 @@ export const ItemContainer = styled.div`
 export const Icon = styled.span`
   ${tw`
     text-black
-    fill-current
-    text-xs
-    md:text-base
-    mr-1
-    md:mr-3
-
   `}
 `;
 
-export const Name = styled.span`
-  ${tw`
-    text-gray-600
-    text-xs
-    md:text-sm
-  `}
-`;
-
-export const LineSeparator = styled.span`
-  width: 2px;
-  height: 45%;
-
-  ${tw`
-    bg-gray-300
-    mr-2
-    ml-2
-    md:mr-5
-    md:ml-5
-  `}
-`;
+export const BookCover = styled.div``;

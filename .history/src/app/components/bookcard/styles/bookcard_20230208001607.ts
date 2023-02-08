@@ -44,16 +44,3 @@ export const Name = styled.span`
     md:text-sm
   `}
 `;
-
-export const LineSeparator = styled.span`
-  width: 2px;
-  height: 45%;
-
-  ${tw`
-    bg-gray-300
-    mr-2
-    ml-2
-    md:mr-5
-    md:ml-5
-  `}
-`;

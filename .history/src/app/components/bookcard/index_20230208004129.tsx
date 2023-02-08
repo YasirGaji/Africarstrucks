@@ -26,7 +26,7 @@ export function BookCard() {
         <Icon>
           <FontAwesomeIcon icon={faCalendarAlt} />
         </Icon>
-        <Name>Return Date</Name>
+        <Name>Pick Up Date</Name>
       </ItemContainer>
     </CardContainer>
   );
