@@ -1,6 +1,5 @@
 import styled from 'styled-components/macro';
 import tw from 'twin.macro';
-import { SCREENS } from '../../responsive';
 
 export const CardContainer = styled.div`
   ${tw`
@@ -19,10 +18,6 @@ export const CardContainer = styled.div`
     md:pr-6
     mt-20
   `}
-
-  @media  (max-width: ${SCREENS.sm}) {
-    margin-top: 14em;
-  }
 `;
 
 export const ItemContainer = styled.div`

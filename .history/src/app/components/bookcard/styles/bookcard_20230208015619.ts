@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro';
 import tw from 'twin.macro';
-import { SCREENS } from '../../responsive';
+import { SCREENS } from '../../../responsive';
 
 export const CardContainer = styled.div`
   ${tw`
@@ -21,7 +21,7 @@ export const CardContainer = styled.div`
   `}
 
   @media  (max-width: ${SCREENS.sm}) {
-    margin-top: 14em;
+    margin-top: 30px;
   }
 `;
 

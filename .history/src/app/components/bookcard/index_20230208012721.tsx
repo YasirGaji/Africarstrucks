@@ -1,7 +1,6 @@
 import { faCalendarAlt } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { Marginer, Button } from "../../components";
 import {
   CardContainer,
   ItemContainer,
@@ -30,9 +29,7 @@ export function BookCard() {
         <Name>Return Date</Name>
       </ItemContainer>
 
-      <Marginer margin="2em" direction="horizontal" />
-
-      <Button text="Book A Truck" theme={"filled"}  />
+      <M
     </CardContainer>
   );
 }

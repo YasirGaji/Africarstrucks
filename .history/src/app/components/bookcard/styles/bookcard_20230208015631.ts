@@ -21,7 +21,7 @@ export const CardContainer = styled.div`
   `}
 
   @media  (max-width: ${SCREENS.sm}) {
-    margin-top: 14em;
+    margin-top: 30px;
   }
 `;
 
