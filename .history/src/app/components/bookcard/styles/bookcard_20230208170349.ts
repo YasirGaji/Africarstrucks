@@ -72,7 +72,7 @@ export const LineSeparator = styled.span`
 
 export const DateCalendar = styled(Calendar)`
   position: absolute;
-  top: 3.5em;
-  left: -1.5em;
+  top:2em;
+  left:-2em;
   max-width: none;
 `;

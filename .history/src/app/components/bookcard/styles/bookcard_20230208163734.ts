@@ -33,7 +33,6 @@ export const CardContainer = styled.div`
 export const ItemContainer = styled.div`
   ${tw`
     flex
-    relative
   `}
 `;
 
@@ -72,7 +71,7 @@ export const LineSeparator = styled.span`
 
 export const DateCalendar = styled(Calendar)`
   position: absolute;
-  top: 3.5em;
-  left: -1.5em;
+  top:1em;
+  left:0;
   max-width: none;
 `;

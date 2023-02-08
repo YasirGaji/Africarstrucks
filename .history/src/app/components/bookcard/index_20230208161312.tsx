@@ -8,12 +8,10 @@ import {
   Icon,
   Name,
   LineSeparator,
-  DateCalendar,
 
 } from "./styles/bookcard";
-
-
-
+import Calendar from "react-calendar";
+import 'react-calendar/dist/Calendar.css';
 
 export function BookCard() {
   return (
@@ -23,7 +21,6 @@ export function BookCard() {
           <FontAwesomeIcon icon={faCalendarAlt} />
         </Icon>
         <Name>Pick Up Date</Name>
-        <DateCalendar />
       </ItemContainer>
 
       <LineSeparator />

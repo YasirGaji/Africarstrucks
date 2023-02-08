@@ -1,8 +1,7 @@
 import styled from 'styled-components/macro';
 import tw from 'twin.macro';
 import { SCREENS } from '../../responsive';
-import Calendar from "react-calendar";
-import 'react-calendar/dist/Calendar.css';
+
 
 export const CardContainer = styled.div`
   min-height: 4.3em;
@@ -33,7 +32,6 @@ export const CardContainer = styled.div`
 export const ItemContainer = styled.div`
   ${tw`
     flex
-    relative
   `}
 `;
 
@@ -68,11 +66,4 @@ export const LineSeparator = styled.span`
     md:mr-5
     md:ml-5
   `}
-`;
-
-export const DateCalendar = styled(Calendar)`
-  position: absolute;
-  top: 3.5em;
-  left: -1.5em;
-  max-width: none;
 `;

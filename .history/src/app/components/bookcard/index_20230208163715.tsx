@@ -8,7 +8,6 @@ import {
   Icon,
   Name,
   LineSeparator,
-  DateCalendar,
 
 } from "./styles/bookcard";
 
@@ -23,7 +22,6 @@ export function BookCard() {
           <FontAwesomeIcon icon={faCalendarAlt} />
         </Icon>
         <Name>Pick Up Date</Name>
-        <DateCalendar />
       </ItemContainer>
 
       <LineSeparator />
