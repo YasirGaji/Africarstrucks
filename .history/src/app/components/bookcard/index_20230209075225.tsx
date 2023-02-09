@@ -16,19 +16,8 @@ import {
 
 
 export function BookCard() {
-  const [startDate, setStartDate] = useState<Date>(new Date());
+  const [startDate, setStartDate] = useState();
   const [isStartCalendarOpen, setStartCalendarOpen] = useState(false);
-
-  const [returnDate, setReturnDate] = useState<Date>(new Date());
-  const [isReturnCalendarOpen, setReturnCalendarOpen] = useState(false);
-
-  const toggleReturnDateCalendar = () => {
-    setReturnCalendarOpen(!isReturnCalendarOpen);
-  }
-
-  const toggleStartDateCalendar = () => {
-    setStartCalendarOpen(!isStartCalendarOpen);
-  }
 
   return (
     <CardContainer>
@@ -36,10 +25,9 @@ export function BookCard() {
         <Icon>
           <FontAwesomeIcon icon={faCalendarAlt} />
         </Icon>
+        <Name>Pick Up Date</Name>
 
-        <Name onClick={toggleStartDateCalendar} >Pick Up Date</Name>
-       { isStartCalendarOpen && <DateCalendar value={startDate} onChange={setStartDate as any} /> }
-
+       { isStartCalendarOpen && <DateCalendar /> }
       </ItemContainer>
 
       <LineSeparator />
@@ -48,9 +36,7 @@ export function BookCard() {
         <Icon>
           <FontAwesomeIcon icon={faCalendarAlt} />
         </Icon>
-
-        <Name onClick={toggleReturnDateCalendar} >Return Date</Name>
-        { isReturnCalendarOpen && <DateCalendar value={returnDate} onChange={setReturnDate as any} /> }
+        <Name>Return Date</Name>
       </ItemContainer>
 
       <Marginer margin="2em" direction="horizontal" />

@@ -76,5 +76,4 @@ export const DateCalendar = styled(Calendar)`
   position: absolute;
   top: 3.5em;
   left: -1.5em;
-  width: none;
 `;
