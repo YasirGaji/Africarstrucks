@@ -58,7 +58,7 @@ export function BookCard() {
 
         <Name onClick={toggleReturnDateCalendar} >Return Date</Name>
         <SmallIcon>
-          <FontAwesomeIcon icon={isReturnCalendarOpen ? faCaretUp : faCaretDown } />
+          <FontAwesomeIcon icon={isStartCalendarOpen ? faCaretUp : faCaretDown } />
         </SmallIcon>
         { isReturnCalendarOpen && <DateCalendar value={returnDate} onChange={setReturnDate as any} /> }
       </ItemContainer>

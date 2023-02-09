@@ -55,7 +55,6 @@ export const Name = styled.span`
     text-xs
     md:text-sm
     cursor-pointer
-    select-none
   `}
 `;
 
@@ -78,7 +77,6 @@ export const DateCalendar = styled(Calendar)`
   top: 3.5em;
   left: -1.5em;
   width: none;
-  user-select: none;
 `;
 
 export const SmallIcon = styled.span`

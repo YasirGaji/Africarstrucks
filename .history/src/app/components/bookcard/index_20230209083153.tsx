@@ -1,5 +1,4 @@
 import { faCalendarAlt } from "@fortawesome/free-regular-svg-icons";
-import { faCaretDown, faCaretUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { Marginer, Button } from "../../components";
@@ -41,10 +40,11 @@ export function BookCard() {
           <FontAwesomeIcon icon={faCalendarAlt} />
         </Icon>
 
-        <Name onClick={toggleStartDateCalendar} >Pick Up Date</Name>
         <SmallIcon>
-          <FontAwesomeIcon icon={isStartCalendarOpen ? faCaretUp : faCaretDown } />
+          <FontAwesomeIcon icon={faCalendarAlt} />
         </SmallIcon>
+
+        <Name onClick={toggleStartDateCalendar} >Pick Up Date</Name>
        { isStartCalendarOpen && <DateCalendar value={startDate} onChange={setStartDate as any} /> }
 
       </ItemContainer>
@@ -57,9 +57,6 @@ export function BookCard() {
         </Icon>
 
         <Name onClick={toggleReturnDateCalendar} >Return Date</Name>
-        <SmallIcon>
-          <FontAwesomeIcon icon={isReturnCalendarOpen ? faCaretUp : faCaretDown } />
-        </SmallIcon>
         { isReturnCalendarOpen && <DateCalendar value={returnDate} onChange={setReturnDate as any} /> }
       </ItemContainer>
 
