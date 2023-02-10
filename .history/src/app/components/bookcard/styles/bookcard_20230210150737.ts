@@ -1,4 +1,3 @@
-import { css } from 'styled-components/macro';
 import styled from 'styled-components/macro';
 import tw from 'twin.macro';
 import { SCREENS } from '../../responsive';
@@ -82,7 +81,7 @@ export const DateCalendar = styled(Calendar)<{ offset?: boolean }>`
   user-select: none;
 
   ${({ offset }) => offset && css`
-    left: -7em;
+    left: -5em;
   `}
 
   @media (min-width: ${SCREENS.md}) {

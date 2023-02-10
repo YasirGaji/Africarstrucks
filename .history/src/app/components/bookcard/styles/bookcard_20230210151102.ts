@@ -77,12 +77,12 @@ export const DateCalendar = styled(Calendar)<{ offset?: boolean }>`
   max-width: none;
   position: absolute;
   top: 3em;
-  left: 0;
+  left: -4em;
   width: none;
   user-select: none;
 
   ${({ offset }) => offset && css`
-    left: -7em;
+    left: -5em;
   `}
 
   @media (min-width: ${SCREENS.md}) {
