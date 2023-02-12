@@ -1,10 +1,10 @@
 import styled from "styled-components/macro";
 import tw from "twin.macro";
+import { Button } from "../../button";
 
 export const TruckContainer = styled.div`
-  min-width: 16.5em;
-  min-height: 22.5em;
-  max-width: 16.5em;
+  width: 15.5em;
+  min-height: 27.5em;
   max-height: 22.5em;
   box-shadow: 0 1.3px 17px -2px rgba(0, 0, 0, 0.4);
 
@@ -111,7 +111,7 @@ export const Seperator = styled.div`
   `}
 `;  
 
-export const RentButton = styled.div`
+export const RentButton = styled(Button)`
   ${tw`
     min-w-full
     mt-5

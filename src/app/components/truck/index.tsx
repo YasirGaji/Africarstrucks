@@ -73,7 +73,7 @@ export function Truck(props: TruckProps) {
         </TruckDetail>
       </TruckDetailsContainer>
 
-      <RentButton className="Hire" />
+      <RentButton text="Hire" />
     </TruckContainer>
   )
 }
