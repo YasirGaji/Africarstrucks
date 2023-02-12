@@ -1,5 +1,5 @@
 import React from "react";
-import { BookCard, Marginer, Navbar } from "../../components";
+import { BookCard, Footer, Marginer, Navbar } from "../../components";
 import { AboutUs } from "../aboutus";
 import { TopTrucks } from "../toptrucks";
 import { BookingSteps } from "./bookingSteps";
@@ -23,6 +23,7 @@ export function HomePage() {
       <AboutUs />
       <Marginer direction="vertical" margin="8em" />
       <TopTrucks />
+      <Footer />
     </PageContainer>
   );
 }

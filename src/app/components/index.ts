@@ -4,3 +4,4 @@ export { Button } from './button';
 export { BookCard } from './bookcard';
 export { Marginer } from './marginer';
 export { Truck } from './truck';
+export { Footer } from './footer/index';
