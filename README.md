@@ -6,7 +6,7 @@ This is a vehicle rental service platform where users can rent vehicles for a pe
 
 ## Other tools/technology and libraries used
 
- [TailwindCSS](https://tailwindcss.com/), [Styled-component](https://styled-components.com/), & [Twin-Macro](https://www.npmjs.com/package/twin.macro) - CSS frameworks/libraries for styling | [React-responsive](https://www.npmjs.com/package/react-responsive) for effective responsiveness | [React-Burger-Menu](https://www.npmjs.com/package/react-burger-menu) for mobile responsiveness of the navigation | [Font Awesome](https://fontawesome.com/) for icons | [React-Calendar](https://www.npmjs.com/package/react-calendar) for calendar booking integration
+ [TailwindCSS](https://tailwindcss.com/), [Styled-component](https://styled-components.com/), & [Twin-Macro](https://www.npmjs.com/package/twin.macro) - CSS frameworks/libraries for styling | [React-responsive](https://www.npmjs.com/package/react-responsive) for effective responsiveness | [React-Burger-Menu](https://www.npmjs.com/package/react-burger-menu) for mobile responsiveness of the navigation | [Font Awesome](https://fontawesome.com/) for icons | [React-Calendar](https://www.npmjs.com/package/react-calendar) for calendar booking integration | [React-Carousel](https://www.npmjs.com/package/@brainhubeu/react-carousel) from `@brainhubeu` for carousel implementation
 
 ## What I Learned
 
