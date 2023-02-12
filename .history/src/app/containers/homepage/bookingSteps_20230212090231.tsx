@@ -8,14 +8,13 @@ import {
   StepDescription, 
   StepIcon, 
   StepsContainer,
-  StepsTitle,
   StepTitle,
 } from "./styles/homepage";
 
 export function BookingSteps() {
   return (
     <BookingStepsContainer>
-      <StepsTitle>Our Process</StepsTitle>
+      <Title></Title>
       <StepsContainer>
         <StepContainer>
           <Step>
