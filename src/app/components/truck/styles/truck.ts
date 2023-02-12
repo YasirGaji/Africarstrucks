@@ -4,8 +4,7 @@ import { Button } from "../../button";
 
 export const TruckContainer = styled.div`
   width: 15.5em;
-  min-height: 27.5em;
-  max-height: 22.5em;
+  height: 27em;
   box-shadow: 0 1.3px 17px -2px rgba(0, 0, 0, 0.4);
 
 
@@ -17,7 +16,8 @@ export const TruckContainer = styled.div`
     pb-4
     bg-white
     rounded-md
-    m-1
+    m-2
+    sm:m-3
   `}
 `;
 
