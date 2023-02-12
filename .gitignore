@@ -46,6 +46,7 @@ next-env.d.ts
 
 # production
 /build
+.history
 
 # misc
 .DS_Store
