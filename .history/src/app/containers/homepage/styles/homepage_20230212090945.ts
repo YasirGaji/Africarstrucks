@@ -197,7 +197,6 @@ export const StepContainer = styled.div`
     items-center
     transition-colors
     hover:text-gray-500
-    m-3
   `}
 `;
 
