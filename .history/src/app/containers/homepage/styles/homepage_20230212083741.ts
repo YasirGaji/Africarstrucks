@@ -85,8 +85,6 @@ export const Description = styled.p`
     overflow-hidden
     max-h-12
     text-gray-800
-    md:w-96
-    lg:w-2/3
   `}
 
   @media (min-width: ${SCREENS.sm}) {
@@ -211,29 +209,8 @@ export const Step = styled.div`
   `}
 `;
 
-export const StepTitle = styled.h4`
+export const StepTitle = styled.span`
   ${tw`
     text-black
-    text-lg
-    font-semibold
-    mt-4
-
-  `}
-`;
-
-export const StepDescription = styled.p`
-  ${tw`
-    text-xs
-    md:text-sm
-    text-center
-    w-10/12
-    text-gray-600
-  `}
-`;
-
-export const StepIcon = styled.span`
-  ${tw`
-    text-gray-600
-    text-3xl
   `}
 `;

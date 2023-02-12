@@ -85,8 +85,6 @@ export const Description = styled.p`
     overflow-hidden
     max-h-12
     text-gray-800
-    md:w-96
-    lg:w-2/3
   `}
 
   @media (min-width: ${SCREENS.sm}) {
@@ -184,56 +182,5 @@ export const StepsContainer = styled.div`
     flex
     justify-evenly
     flex-wrap
-    mt-7
-    lg:mt-16
-  `}
-`;
-
-export const StepContainer = styled.div`
-  ${tw`
-    flex
-    flex-col
-    w-16
-    md:w-96
-    items-center
-    transition-colors
-    hover:text-gray-500
-  `}
-`;
-
-export const Step = styled.div`
-  ${tw`
-    flex
-    rounded-lg
-    items-center
-    justify-center
-    p-6
-  `}
-`;
-
-export const StepTitle = styled.h4`
-  ${tw`
-    text-black
-    text-lg
-    font-semibold
-    mt-4
-
-  `}
-`;
-
-export const StepDescription = styled.p`
-  ${tw`
-    text-xs
-    md:text-sm
-    text-center
-    w-10/12
-    text-gray-600
-  `}
-`;
-
-export const StepIcon = styled.span`
-  ${tw`
-    text-gray-600
-    text-3xl
   `}
 `;

@@ -85,8 +85,6 @@ export const Description = styled.p`
     overflow-hidden
     max-h-12
     text-gray-800
-    md:w-96
-    lg:w-2/3
   `}
 
   @media (min-width: ${SCREENS.sm}) {
