@@ -8,6 +8,7 @@ const AppContainer = styled.div`
     flex
     flex-col
     w-full
+    
   `}
 `;
 

@@ -8,6 +8,7 @@ const AppContainer = styled.div`
     flex
     flex-col
     w-full
+    h-full
   `}
 `;
 
@@ -16,6 +17,8 @@ function App() {
     <>
       <AppContainer>
         <HomePage />
+        <HomePage />
+        <div></div>
       </AppContainer>
       
     </>

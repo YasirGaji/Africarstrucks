@@ -15,7 +15,6 @@ export function HomePage() {
       <TopSection />
       <Marginer direction="vertical" margin="4em" />
       <BookCard />
-      <Marginer direction="vertical" margin="3em" />
       <BookingSteps />
     </PageContainer>
   );
