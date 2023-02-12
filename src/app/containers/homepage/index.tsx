@@ -1,6 +1,7 @@
 import React from "react";
 import { BookCard, Marginer, Navbar } from "../../components";
 import { AboutUs } from "../aboutus";
+import { TopTrucks } from "../toptrucks";
 import { BookingSteps } from "./bookingSteps";
 import { 
   PageContainer 
@@ -20,6 +21,8 @@ export function HomePage() {
       <BookingSteps />
       <Marginer direction="vertical" margin="8em" />
       <AboutUs />
+      <Marginer direction="vertical" margin="8em" />
+      <TopTrucks />
     </PageContainer>
   );
 }

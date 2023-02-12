@@ -117,3 +117,13 @@ export const RentButton = styled.div`
     mt-5
   `}
 `;
+
+export  const SmallText = styled.h6`
+  color: inherit;
+
+
+  ${tw`
+    text-xs
+    font-thin
+  `}
+`;
