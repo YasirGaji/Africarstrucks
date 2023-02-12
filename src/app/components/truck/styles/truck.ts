@@ -3,8 +3,8 @@ import tw from "twin.macro";
 import { Button } from "../../button";
 
 export const TruckContainer = styled.div`
-  width: 15.5em;
-  height: 27em;
+  width: 18em;
+  height: 29em;
   box-shadow: 0 1.3px 17px -2px rgba(0, 0, 0, 0.4);
 
 
@@ -45,7 +45,7 @@ export const PricesContainer = styled.div`
   ${tw`
     w-full
     flex
-    justify-start
+    justify-center
     mt-3
   `}
 `;
@@ -68,7 +68,7 @@ export const MonthlyPrice = styled.h5`
   `}
 `;
 
-export const smallIcon = styled.div`
+export const SmallIcon = styled.div`
   ${tw`
     text-gray-400
     text-sm
@@ -123,6 +123,7 @@ export  const SmallText = styled.h6`
 
 
   ${tw`
+    inline-flex
     text-xs
     font-thin
   `}

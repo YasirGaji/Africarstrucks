@@ -17,7 +17,7 @@ export function TopTrucks() {
     dailyPrice: 100,
     monthlyPrice: 1000,
     mileage: "10kmpl",
-    gearType: "Automatic",
+    gearType: "Auto",
     gas: "Petrol",
     model: "",
     make: ""
@@ -29,7 +29,7 @@ export function TopTrucks() {
     dailyPrice: 100,
     monthlyPrice: 1000,
     mileage: "10kmpl",
-    gearType: "Automatic",
+    gearType: "Manual",
     gas: "Petrol",
     model: "",
     make: ""

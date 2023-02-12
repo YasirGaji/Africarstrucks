@@ -2,7 +2,6 @@ import { faEllipsis, faFillDrip, faTachometerAlt } from "@fortawesome/free-solid
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { TruckProp } from "../../../typings/truck";
-import { SmallIcon } from "../bookcard/styles/bookcard";
 import { 
   DailyPrice,
   PricesContainer,
@@ -15,7 +14,8 @@ import {
   TruckDetailsContainer,
   TruckDetail,
   TruckInfo,
-  RentButton
+  RentButton,
+  SmallIcon
 } from "./styles/truck";
 
 
