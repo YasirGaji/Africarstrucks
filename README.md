@@ -14,6 +14,8 @@ This is a vehicle rental service platform where users can rent vehicles for a pe
 
   2. How to section different styles for a single component using tags in styled-components
 
+  3. How to extend interface props in typescript
+
 ## Errors I Faced
 
   1. I had to install "--dev @types/styled-components" to get rid of the error "Could not find a declaration file for module 'styled-components'"
