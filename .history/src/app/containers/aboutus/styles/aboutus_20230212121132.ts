@@ -10,7 +10,7 @@ export const AboutUsContainer = styled.div`
     flex
     flex-wrap
     items-center
-    justify-center
+    2xl:justify-center
     pt-4
     pb-4
     pr-7
@@ -23,7 +23,9 @@ export const AboutUsContainer = styled.div`
 
 export const TruckContainer = styled.div`
   width: auto;
-  height: 15em; 
+  height: 15em;
+  display: flex;
+  justify-content: center;  
   // margin-left: -30em;
 
   img {

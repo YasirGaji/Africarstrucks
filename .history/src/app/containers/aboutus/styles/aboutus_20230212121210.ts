@@ -10,7 +10,7 @@ export const AboutUsContainer = styled.div`
     flex
     flex-wrap
     items-center
-    justify-center
+    2xl:justify-center
     pt-4
     pb-4
     pr-7
