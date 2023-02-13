@@ -2,7 +2,7 @@
 
 [In Progress]
 
-This is a vehicle rental service platform where users can rent vehicles for a period of time. This is a project I am working on to learn more about the MERN stack. Built with [React](https://reactjs.org/), [Redux](https://redux.js.org/),
+This is a vehicle rental service platform where users can rent vehicles for a period of time. This is a project I am working on to learn more about the MERN stack. Built with [React](https://reactjs.org/), [Redux](https://redux.js.org/), [NestJS](https://nestjs.com/), [Apollo GraphQL](https://www.apollographql.com/), [TypeScript](https://www.typescriptlang.org/)
 
 ## Other tools/technology and libraries used
 
