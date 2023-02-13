@@ -5,6 +5,8 @@ import {
   LogoText
  } from "./styles/logo";
 
+ 
+
 export function Logo() {
   return (
     <LogoContainer>
