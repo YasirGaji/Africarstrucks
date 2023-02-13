@@ -1,4 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { faMailBulk, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import {
   FooterContainer,
@@ -9,7 +11,10 @@ import {
   LinksList,
   HeaderTitle,
   SectionContainer,
-  ListItem
+  ListItem,
+  HorizontalContainer,
+  Icon,
+  SmallText
 } from "./styles/footer";
 
 export function Footer() {
@@ -19,7 +24,7 @@ export function Footer() {
         <AboutContainer>
           <TextLogo>Africarstrucks.</TextLogo>
 
-          <AboutText>Rent, Hire, and Buy Trucks Anywhere Across Africar.</AboutText>
+          <AboutText>Rent, Hire, and Buy Trucks Anywhere Across Africa.</AboutText>
         </AboutContainer>
 
         <SectionContainer>
@@ -99,6 +104,25 @@ export function Footer() {
 
         <SectionContainer>
           <HeaderTitle>Extra Links</HeaderTitle>
+          <HorizontalContainer>
+            <Icon>
+              <FontAwesomeIcon icon={faPhoneAlt} />
+            </Icon>
+
+            <SmallText>+234-708-404-6713</SmallText>
+          </HorizontalContainer>
+
+          <HorizontalContainer>
+            <Icon>
+              <FontAwesomeIcon icon={faMailBulk} />
+            </Icon>
+
+            <SmallText>hello@Africarstrucks.com.ng</SmallText>
+          </HorizontalContainer>
+        </SectionContainer>
+
+        {/* <SectionContainer>
+          <HeaderTitle>Extra Links</HeaderTitle>
           <LinksList>
             <ListItem>
               <a href="#">Repairs</a>
@@ -124,7 +148,7 @@ export function Footer() {
               <a href="#">Lease Terms</a>
             </ListItem>
           </LinksList>
-        </SectionContainer>
+        </SectionContainer> */}
       </InnerContainer>
     </FooterContainer>
   )

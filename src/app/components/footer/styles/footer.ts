@@ -23,6 +23,9 @@ export const AboutContainer = styled.div`
     flex-col
     mr-3
     md:mr-16
+    px-10
+    md:px-3
+    mb-3
   `}
 `;
 
@@ -43,6 +46,7 @@ export const InnerContainer = styled.div`
     flex
     flex-wrap
     h-full
+    justify-center
   `}
 `;
 
@@ -82,17 +86,53 @@ export const ListItem = styled.li`
 
   & > a {
     ${tw`
-      text-sm
+      text-xs
       text-white
+      hover:text-gray-200
+      transition-all
     `}
   }
 `;
 
 export const SectionContainer = styled.div`
   ${tw`
+    w-full
+    md:w-auto
     flex
     flex-col
     mr-3
     md:mr-32
+    px-10
+    md:px-3
+    mb-3
+  `}
+`;
+
+
+export const Icon = styled.span`
+  ${tw`
+    w-5
+    h-5
+    rounded-full
+    flex
+    items-center
+    justify-center
+    text-white
+    text-base
+    mr-2
+  `}
+`;
+
+export const HorizontalContainer = styled.div`
+  ${tw`
+    flex
+    mb-5
+  `}
+`;
+
+export const SmallText = styled.h6`
+  ${tw`
+    text-white
+    text-xs
   `}
 `;
