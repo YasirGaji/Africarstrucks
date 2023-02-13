@@ -21,6 +21,8 @@ import {
 } from "./styles/footer";
 
 export function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <FooterContainer>
       <InnerContainer>
@@ -156,7 +158,7 @@ export function Footer() {
 
       <ButtomContainer>
         <CopyRightText>
-          Copyright &copy; 2023 Africarstrucks. All rights reserved. Created by <a href="https://www.yasirgaji.com" target="_blank" rel="noreferrer">Yasir Gaji</a>
+          Copyright &copy; {year} Africarstrucks. All rights reserved. Created by <a href="https://www.yasirgaji.com" target="_blank" rel="noreferrer">Yasir Gaji</a>
         </CopyRightText>
       </ButtomContainer>
     </FooterContainer>
