@@ -28,6 +28,8 @@ This is a vehicle rental service platform where users can rent vehicles for a pe
 
   6. Function of the `@netsjs/config` package
 
+  7. About type params for `ormconfig.json` file setup
+  
 ## Errors I Faced
 
   1. I had to install "--dev @types/styled-components" to get rid of the error "Could not find a declaration file for module 'styled-components'"
