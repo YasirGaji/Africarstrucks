@@ -26,6 +26,8 @@ This is a vehicle rental service platform where users can rent vehicles for a pe
 
   5. How to set up a database with TypeOrm
 
+  6. Function of the `@netsjs/config` package
+
 ## Errors I Faced
 
   1. I had to install "--dev @types/styled-components" to get rid of the error "Could not find a declaration file for module 'styled-components'"
