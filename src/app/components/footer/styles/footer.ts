@@ -136,3 +136,21 @@ export const SmallText = styled.h6`
     text-xs
   `}
 `;
+
+export const ButtomContainer = styled.div`
+  ${tw`
+    flex
+    items-center
+    justify-center
+    w-full
+    px-12
+  `}
+`;
+
+export const CopyRightText = styled.p`
+  font-size: 12px;
+
+  ${tw`
+    text-gray-400
+  `}
+`;

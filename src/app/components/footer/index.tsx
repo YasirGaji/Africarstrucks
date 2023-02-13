@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { faMailBulk, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,7 +15,9 @@ import {
   ListItem,
   HorizontalContainer,
   Icon,
-  SmallText
+  SmallText,
+  ButtomContainer,
+  CopyRightText
 } from "./styles/footer";
 
 export function Footer() {
@@ -150,6 +153,12 @@ export function Footer() {
           </LinksList>
         </SectionContainer> */}
       </InnerContainer>
+
+      <ButtomContainer>
+        <CopyRightText>
+          Copyright &copy; 2023 Africarstrucks. All rights reserved. Created by <a href="https://www.yasirgaji.com" target="_blank" rel="noreferrer">Yasir Gaji</a>
+        </CopyRightText>
+      </ButtomContainer>
     </FooterContainer>
   )
 }
